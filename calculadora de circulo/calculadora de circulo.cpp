@@ -3,7 +3,7 @@
 #include <stdio.h>
 using namespace std;
 
-calcu_circu()
+main()
 {
 	setlocale(LC_ALL,""); 
 	int oper;
@@ -25,10 +25,10 @@ calcu_circu()
 	if(oper == 1){
 		cout<<"\nA área do círculo de raio "<<raio<<" é: "<<area<<" cm²";
 	}else if(oper == 2){
-		cout<<"\nA Circunferência do círculo de raio "<<raio<<" é: "<<cin<<" cm";
+		cout<<"\nA Circunferência do círculo de raio "<<raio<<" é: "<<circ<<" cm";
 	}else if(oper == 3){
 		cout<<"\nA área do círculo de raio "<<raio<<" é: "<<area<<" cm²";
-		cout<<"\nA Circunferência do círculo de raio "<<raio<<" é: "<<cin<<" cm";
+		cout<<"\nA Circunferência do círculo de raio "<<raio<<" é: "<<circ<<" cm";
 	}
 	cout<<"\nDigite qualquer valor para sair";
 	cin>>fim;

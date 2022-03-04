@@ -3,7 +3,7 @@
 #include <stdio.h>
 using namespace std;
 
-calcu_triângulo_retan()
+main()
 {
 	setlocale(LC_ALL,""); 
 	int ope;
@@ -35,7 +35,7 @@ calcu_triângulo_retan()
 		cout<<"\nA hipotenusa do triângulo é: "<<hipo<<" cm";
 		cout<<"\nO perímetro do triângulo é: "<<peri<<" cm";
 	}
-	cout<<"Digite qualquer valor para sair";
+	cout<<"\nDigite qualquer valor para sair";
 	cin>>fim;
 	
 	
