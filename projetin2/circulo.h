@@ -3,7 +3,7 @@
 #include <stdio.h>
 using namespace std;
 
-void circulo()
+void circul()
 {
 	setlocale(LC_ALL,""); 
 	int oper;
@@ -30,6 +30,6 @@ void circulo()
 		cout<<"\nA área do círculo de raio "<<raio<<" é: "<<area<<" cm²";
 		cout<<"\nA Circunferência do círculo de raio "<<raio<<" é: "<<circ<<" cm";
 	}
-	cout<<"\nDigite qualquer valor para sair";
-	cin>>fim;
+	cout<<"\nenter para sair\n";
+	system("\npause");
 }
