@@ -3,7 +3,7 @@
 #include <stdio.h>
 using namespace std;
 
-main()
+void circulo()
 {
 	setlocale(LC_ALL,""); 
 	int oper;

@@ -3,11 +3,12 @@
 #include <stdio.h>
 using namespace std;
 
-alt_salario()
+salario()
 {
+	int teste(1,2,3,4,5,6,7,8);
 	float salar, oper, porc, fim;
 	setlocale(LC_ALL,""); 
-	
+	cout<<teste(2)
 	cout<<"________________\n";
 	cout<<"CALCULAR SALÁRIO\n";
 	cout<<"________________\n";

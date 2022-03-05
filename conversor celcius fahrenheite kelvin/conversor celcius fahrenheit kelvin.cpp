@@ -13,11 +13,11 @@ main()
 	do{
 		
 		system("cls");
-		cout<<"__________________________________________";
-		cout<<"\nCONVERSSOR CELSIUS FAHRENHEIT KELVIN";
-		cout<<"\n________________________________________";
+		cout<<"\n====================================";
+		cout<<"\nCONVERSOR CELSIUS FAHRENHEIT KELVIN";
+		cout<<"\n====================================";
 		
-		cout<<"\n\nQual valor gostaria de digitar?\n[1]Celsius\n[2]Fahrenheit\n[3]Kelvin\n\nResposta: ";
+		cout<<"\n\nQual valor gostaria de converter?\n[1]Celsius\n[2]Fahrenheit\n[3]Kelvin\n\nResposta: ";
 		cin>>n1;
 		if(n1==1){
 		

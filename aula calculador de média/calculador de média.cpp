@@ -3,7 +3,7 @@
 #include <stdio.h>
 using namespace std;
 
-calcu_media()
+calcumedia()
 {
 	setlocale(LC_ALL,""); 
 	char nome[100];

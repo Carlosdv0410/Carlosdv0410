@@ -3,7 +3,7 @@
 #include <stdio.h>
 using namespace std;
 
-calcu_multif()
+void calculadora()
 {
 	setlocale(LC_ALL,""); 
 	cout << "___________\n";

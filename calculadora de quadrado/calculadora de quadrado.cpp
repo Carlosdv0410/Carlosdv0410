@@ -3,7 +3,7 @@
 #include <stdio.h>
 using namespace std;
 
-calcu_quadrado()
+void quadrado()
 {
 	int ope;
 	float l, per, area,fim;
