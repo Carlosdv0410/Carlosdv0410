@@ -11,20 +11,33 @@
 #include "altsala.h"
 #include "conversor.h"
 #include "media.h"
+#include "primopares.h"
 using namespace std;
 
 int main()
 {
 	int oper;
 	do{
+		system("cls");
 		setlocale(LC_ALL,""); 
 		system("cls");
 		cout<<"\n===========================";
 		cout<<"\n          CENTRAL          ";
 		cout<<"\n===========================";
 		
-		cout<<"\n\nOque gostaria de fazer?\n[1]Converter temperaturas\n[2]Modificar salário\n[3]Calcular média\n[4]Calcular círculo\n[5]calcular quadrado\n[6]Utilizar calculadora\n[7]Calcular triângulo\n[8]Calcular radiano\n[9]sair\n\nResposta: ";
-		cin>>oper;
+		printf("\n\nOque gostaria de fazer?"
+		"\n[1]Converter temperaturas"
+		"\n[2]Modificar salário"
+		"\n[3]Calcular média"
+		"\n[4]Calcular círculo"
+		"\n[5]calcular quadrado"
+		"\n[6]Utilizar calculadora"
+		"\n[7]Calcular triângulo"
+		"\n[8]Calcular radiano"
+		"\n[9]Descobrir primos pares"
+		"\n[10]Sair"
+		"\n\nResposta: ");
+		scanf("%d",&oper);
 		
 		if(oper == 1){
 			conv();
@@ -42,8 +55,10 @@ int main()
 			triangulo();
 		}else if(oper == 8){
 			radian();
+		}else if(oper == 9){
+			mainprimos();
 		}
 			
-	}while(oper != 9);
+	}while(oper != 10);
 
 }

@@ -5,6 +5,7 @@ using namespace std;
 
 calcumedia()
 {
+	system("cls");
 	setlocale(LC_ALL,""); 
 	char nome[100];
 	float n1, n2, n3, n4, resul, fim;

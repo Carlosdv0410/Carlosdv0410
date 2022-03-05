@@ -5,13 +5,14 @@ using namespace std;
 
 void quadrad()
 {
+	system("cls");
 	int ope;
 	float l, per, area,fim;
 	
 	setlocale(LC_ALL,""); 
-	cout<<"_______________________\n";
+	cout<<"=======================\n";
 	cout<<"CALCULADORA DE QUADRADO\n";
-	cout<<"_______________________\n";
+	cout<<"=======================\n";
 	
 	cout<<"\nDigite o valor do lado do quadrado(cm): ";
 	cin>>l;

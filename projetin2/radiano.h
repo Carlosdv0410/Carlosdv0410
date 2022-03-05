@@ -4,6 +4,7 @@ using namespace std;
 
 radian()
 {
+	system("cls");
 	float angulo, radi;
 
 	cout<<"\n=================";

@@ -5,13 +5,14 @@ using namespace std;
 
 void circul()
 {
+	system("cls");
 	setlocale(LC_ALL,""); 
 	int oper;
 	float raio, area, circ, fim;
 	
-	cout<<"______________________\n";
+	cout<<"======================\n";
 	cout<<"CALCULADORA DE CÍRCULO\n";
-	cout<<"______________________\n";
+	cout<<"======================\n";
 	
 	cout<<"\nQual o raio(r) do círculo?(cm): ";
 	cin>>raio;

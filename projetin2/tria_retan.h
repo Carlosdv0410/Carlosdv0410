@@ -5,12 +5,13 @@ using namespace std;
 
 void triangulo()
 {
+	system("cls");
 	setlocale(LC_ALL,""); 
 	int ope;
 	float b, h, area, hipo, peri, fim;
-	cout<<"_______________________________\n";
+	cout<<"===============================\n";
 	cout<<"CALCULADORA TRIÂNGULO RETÂNGULO\n";
-	cout<<"_______________________________\n";
+	cout<<"===============================\n";
 	
 	cout<<"\nQual a base do triângulo retângulo?(cm): ";
 	cin>>b;

@@ -5,16 +5,17 @@ using namespace std;
 
 salario()
 {
+	system("cls");
 	float salar, oper, porc, fim;
 	setlocale(LC_ALL,""); 
 	cout<<"================\n";
-	cout<<"CALCULAR SALï¿½RIO\n";
+	cout<<"CALCULAR SALÁRIO\n";
 	cout<<"================\n";
 	
-	cout<<"Qual o salï¿½rio que deseja alterar?: ";
+	cout<<"Qual o salário que deseja alterar?: ";
 	cin>>salar;
 	
-	cout<<"\nGostaria de alterar como?\n[1]Aumento\n[2]Reduï¿½ï¿½o\nResposta: ";
+	cout<<"\nGostaria de alterar como?\n[1]Aumento\n[2]Redulção\nResposta: ";
 	cin>>oper;
 	
 	cout<<"Quanto gostaria de alterar em[%]: ";
@@ -25,7 +26,7 @@ salario()
 		salar=salar-(porc*salar/100);
 	}
 	
-	cout<<"\nO resultado da operaï¿½ï¿½o ï¿½: "<< salar;
+	cout<<"\nO resultado da operação é: "<< salar;
 	
 	cout<<"\nenter para sair\n";
 	system("\npause");

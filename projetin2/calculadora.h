@@ -5,6 +5,7 @@ using namespace std;
 
 void calculador()
 {
+	system("cls");
 	setlocale(LC_ALL,""); 
 	cout << "===========\n";
 	cout << "CALCULADORA\n";
