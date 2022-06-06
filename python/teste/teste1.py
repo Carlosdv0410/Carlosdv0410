@@ -34,7 +34,7 @@ while oper != 0:
         n2 = float(input("Digite outro valor: "))
         print("O resultado da operação é: ", n1/n2)
         time.sleep(2)
-    elif(oper ==0):
+    else:
         print("Saindo...")
         time.sleep(1)
         exit()
